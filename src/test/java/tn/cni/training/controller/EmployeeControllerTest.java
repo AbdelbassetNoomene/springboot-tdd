@@ -34,8 +34,6 @@ public class EmployeeControllerTest {
 
     @Test
     public void getListEmployee() {
-        MockHttpServletRequest request = new MockHttpServletRequest();
-        RequestContextHolder.setRequestAttributes(new ServletRequestAttributes(request));
 
         // given
         Employee employee1 = new Employee(1,"Test1", "Test1", "test1@gmail.com");
